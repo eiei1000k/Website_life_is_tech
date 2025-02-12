@@ -1,0 +1,105 @@
+body {
+    background-color: #D9D9D9;
+}
+
+header {
+  position: fixed;  /* 位置を固定する */
+  top: 0;  /* 固定する位置を指定 */
+  left: 0;  /* 固定する位置を指定 */
+  width: 100%;  /* ヘッダーの幅 */
+  height: 130px;  /* ヘッダーの高さ */
+  background: #ffffff;  /* 背景色 */
+}
+
+ul {
+    display: flex;
+}
+
+nav {
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    color: #000000;
+}
+
+.inheader {
+    color: #000000;
+}
+
+.subheader h1 {
+    padding: 5px;
+    margin: 5em 0;
+    border: double 3px #ffffff;
+    background-color: #262626;
+    color: white;
+    font-family: serif;
+    text-align: center;
+}
+
+.subheader {
+    background-image: url("../Website/picture file/webpic_E531.png");
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+}
+
+h2 {
+    padding: 0.5em 1em;
+    margin: 3em 0;
+    font-weight: bold;
+    border: double 3px #ffffff;
+    background-color: #262626;
+    font-family: serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+thead,
+tfoot {
+    background-color: #003C88;
+    color: #fff;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px 10px;
+}
+
+td {
+    text-align: center;
+}
+
+.station a {
+    width: 190px;
+}
+
+footer p {
+    background-color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}

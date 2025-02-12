@@ -1,0 +1,85 @@
+body {
+    background-color: #D9D9D9;
+}
+
+header {
+  position: fixed;  /* 位置を固定する */
+  top: 0;  /* 固定する位置を指定 */
+  left: 0;  /* 固定する位置を指定 */
+  width: 100%;  /* ヘッダーの幅 */
+  height: 130px;  /* ヘッダーの高さ */
+  background: #ffffff;  /* 背景色 */
+}
+
+.subheader {
+    background-image: url("../Website/picture file/webpic_E531.png");
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+}
+
+h1 {
+    padding: 5px 5px;
+    margin: 5em 0;
+    border: double 3px #ffffff;
+    background-color: #262626;
+    color: white;
+    font-family: serif;
+    text-align: center;
+}
+
+h2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: double 3px #000000;
+    background-color: #262626;
+    font-family: serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.train {
+    font-weight: bold;
+}
+
+footer p {
+    background-color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.ico {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+ul.topbar {
+    display: flex;
+}
+
+nav.topbar {
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+li.topbar {
+    list-style: none;
+}
+
+a.topbar {
+    display: block;
+    padding: 10px;
+    color: #000000;
+}
+
+.pic {
+    margin: auto;
+    display: flex;
+}
+
+table {
+    margin: 0 auto;
+}
