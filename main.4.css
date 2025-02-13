@@ -12,7 +12,7 @@ header {
 }
 
 .subheader {
-    background-image: url("/picture file/webpic_E531.png");
+    background-image: url("picture file/webpic_E531.png");
     top: 150;
     left: 0;
     width: 100%;
